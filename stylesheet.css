@@ -1,0 +1,175 @@
+*{
+   box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    
+}
+
+.page{
+     width: 900px; 
+     margin: 0 auto; 
+     border: 3px solid black; 
+     position: relative;
+}
+
+nav{
+    background-color: rgb(14, 59, 74);
+    padding: 10px;  
+    height: 50px; 
+    position: relative; 
+}
+
+a{
+   display: inline-block;
+   padding: 10px;
+   margin:10px; 
+   color: white;
+   position: relative;
+   bottom: 10px;
+   right:60px;
+}
+
+header{
+    position: relative;
+    height: 70px;
+}
+
+h1{
+   position: absolute;
+   top: 15px;
+   right: 50px;
+}
+
+div{
+    position: relative;
+}
+
+#news-flash{
+    position: absolute;
+    top: 30px;
+    left:25px;
+}
+
+section{
+    display: flow-root;
+    position: relative;
+}
+
+#logo{
+    position: absolute; 
+    top: 20px; 
+    right: 15px;
+    width:30px;
+}
+
+#red-triangle{
+   position: absolute; 
+   width:20px;
+   top: 24px;
+   left:5px;
+}
+
+#arrows{
+    position: absolute;
+    height:20px;
+    top:85px;
+    left: 5px;
+
+}
+
+#top-separator-line{
+    position: absolute;
+    width:96%;
+    height: 1px;
+    background-color:rgb(14, 59, 74);
+    bottom:120%;
+    right:10px;
+
+}
+
+#underscore{
+    position: absolute;
+    width:90%;
+    height: 4px;
+    background-color:rgb(14, 59, 74) ;
+    top:100px;
+    right:10px;
+}
+span{
+   display: inline-block;
+    position: relative;
+}
+
+.vertical-line{
+    display: inline-block;
+    position: absolute;
+    width:0.8px;
+    height: 50px;
+    background-color: black;
+    top:35px;
+    right: 140px;
+
+}
+
+.card{
+   float: right;
+    width: 16%; 
+    padding: 8px; 
+    margin:2px;
+}
+
+.red-box{
+    display: inline-block; 
+    background: red; 
+    color: white; 
+    padding: 2px 6px;
+}
+
+article{
+    position: relative;
+    height: 340px;
+}
+
+#main-img{
+   position: absolute; 
+   top: 18%; 
+   left: 1%; 
+   width:50%;
+   height:auto;   
+}
+
+#article-label{
+    position:absolute;
+    padding: 0 3px;
+    top:20px;
+    right: 10px;
+}
+
+.article-title{
+    position:absolute;
+    background-color:rgb(14, 59, 74);
+    color: white;
+    width:fit-content;
+    padding: 3px;
+    top: 50px;
+    right:10px;
+}
+
+#article-title-part2{
+    top: 100px;
+}
+
+#article-content{
+    position: absolute;
+    top: 50%; 
+    right: 3%;
+    width: 40%;
+    line-height:25px; 
+}
+
+#signature{
+    position:absolute;
+    bottom:10px;
+    right: 10px;
+    color: grey;
+}
